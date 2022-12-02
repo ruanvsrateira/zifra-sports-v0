@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .title-container {
@@ -32,23 +38,28 @@ header {
     gap: 20px;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 nav button {
-    width: 150px;
+    display: flex;
+    min-width: 150px;
     height: 40px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
 }
 
 nav button:hover {
-    width: 149px;
-    height: 39px;
-    border: none;
-    border-radius: 20px;
     background-color: #000;
     border: 1px solid #fff;
     color: #fff;
-    transition: 1s;
 }
 
 main {
